@@ -66,10 +66,6 @@
                             <constraint firstItem="P7o-Cc-wcw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="te5-eK-qjh"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="choiceButton1" destination="AGV-Qt-1u3" id="PSd-hK-rh4"/>
-                        <outlet property="storyLabel" destination="aLE-zP-2tu" id="KCS-q3-GHN"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
