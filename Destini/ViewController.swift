@@ -26,12 +26,15 @@ class ViewController: UIViewController {
 
     
     @IBAction func choiceMade(_ sender: UIButton) {
+    
+        guard let userChoice = sender.currentTitle else { return }
+        
         
         Timer.scheduledTimer(withTimeInterval: 0.2, repeats: false) { _ in
                
-            self.storyBrain.nextStory()
-            
-                self.updateStory()
+            self.storyBrain.nextStory(userChoice: userChoice)
+                    
+                    self.updateStory()
             }
     }
     
